@@ -27,7 +27,7 @@ void main()
 	printf_s("Book lenght = %d \n", strlen(bookTitle));//***get advise 
 
 	printf_s("Please enter the lenght you wish to save - \n");
-
+	scanf_s("%f", lenght);
 	
 
 
@@ -38,6 +38,7 @@ void main()
 	//Display the values to the user
 	printf_s("You have %d items in your cart.\n", cartAmount);//cart value
 	printf_s("The title you entered was - %s\n", bookTitle);//book title value  , **Get advise
+	printf_s("The value you wished to save was - %f", lenght);
 
 
 }
